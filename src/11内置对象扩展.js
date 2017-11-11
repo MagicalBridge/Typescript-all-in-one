@@ -1,5 +1,7 @@
 /**
  * 对象的扩展
+ *  Object.is()  判断两个数据是否一样 是不是长得一样
+ *  Object.assign() 
  */
 
 // 对象的简洁表示法
@@ -36,8 +38,11 @@ console.log(Object.is(+0, -0)); //false
 
 
 
-// Object.assign() 
-// 用于对象的合并，将源对象的所有可枚举属性，复制到目标对象。
+/*
+ * Object.assign() 
+ 用于对象的合并，将源对象的所有可枚举属性，
+ 复制到目标对象。
+ */
 let obj1 = { a: 1 };
 let obj2 = { a: 2, b: 3 };
 let obj3 = { c: 'abc' };
