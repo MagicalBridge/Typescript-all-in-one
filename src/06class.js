@@ -73,7 +73,7 @@ console.log(typeof Louis); // function
 // 这一点特别像函数的return 写不写都会有返回值
 // class P {};
 // const p = new P();
-// console.log(p);
+// console.log(P);
 
 // 6 生成类的实例对象的写法，
 // 与ES5完全一样，也是使用new命令。

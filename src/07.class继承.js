@@ -63,7 +63,7 @@ class SuperBall extends Ball {
     // 在es6规定在没有 调用super之前 子类是没有自己的this的
     constructor(x, y, r) {
         super(x, y, r);
-        // 添加纵向速度 子类继承父类的时候 
+        // 添加纵向速度 子类继承父类的时候
         // 不仅仅会继承属性 还会自动继承静态方法
 
         // 向下的速度
@@ -101,7 +101,7 @@ class SuperBall extends Ball {
         // 清除整个画布的大小
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
-        //这里不是当前一个函数调用  而是当成一个对象 
+        //这里不是当前一个函数调用  而是当成一个对象
         super.render(ctx);
 
         return true;

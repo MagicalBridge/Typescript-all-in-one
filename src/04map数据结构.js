@@ -96,8 +96,9 @@ console.log(map.entries());
 
 // 9 forEach() 使用回调函数遍历每个成员
 
-map.forEach(function(key, value, map) {
+map.forEach(function(value, key, map) {
     console.log(key + ':' + value);
+
 })
 
 // -----------------------------------------------------

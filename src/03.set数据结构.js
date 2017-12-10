@@ -15,13 +15,13 @@
 
 const s = new Set([1, 2, 3]);
 
-console.log(s);
+// console.log(s);
 
 
 // -----------------------------------------------------
 // 2 Set 类的属性 
 
-console.log(s.size); // 3
+// console.log(s.size); // 3
 
 
 // -----------------------------------------------------
@@ -36,29 +36,29 @@ console.log(s);
 
 // 2 set.delete(value) 删除指定数据，返回一个布尔值，表示删除是否成功。
 
-console.log(s.delete('a'));
-console.log(s);
+// console.log(s.delete('a'));
+// console.log(s);
 
-console.log(s.delete('a'));
+// console.log(s.delete('a'));
 
 // 3 set.has(value) 判断该值是否为Set的成员，反回一个布尔值。
 
-console.log(s.has('a')); // false
-console.log(s.has(1)); // true
+// console.log(s.has('a')); // false
+// console.log(s.has(1)); // true
 
 // 4 set.clear() 清除所有数据，没有返回值。
 
 // s.clear();
-// 
+
 // console.log(s);
 
 // 5 keys() 返回键名的遍历器
 
-console.log(s.keys());
+// console.log(s.keys());
 
 // 6 values() 返回键值的遍历器
 
-console.log(s.values());
+// console.log(s.values());
 
 // 7 entries() 返回键值对的遍历器
 
@@ -68,6 +68,7 @@ console.log(s.entries());
 
 s.forEach(function(value, key, set) {
     console.log(value + ' louis');
+    // console.log(set);
 });
 
 console.log(s);
