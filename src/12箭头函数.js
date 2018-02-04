@@ -51,7 +51,7 @@ function sum2(...arr) {
 sum2(1, 2, 3, 4, 5);
 
 
-
+// rest 参数前面可以写参数  后面不要写 否则会报错
 function sum3(a, ...arr) {
     var res = a;
     for (var i = 0; i < arr.length; i++) {
@@ -113,6 +113,7 @@ console.log(arr);
 // 所以在使用的时候，
 // 其内部的this就是定义时所在环境的对象，
 // 而不是使用时所在环境的对象。
+// 正常的函数中,定时器的this指向window
 
 function fnthis() {
     setTimeout(function() {
@@ -124,7 +125,8 @@ function fnthis() {
 }
 
 var obj = { a: 1 };
-fnthis.call(obj); // 执行的时候 我们将这个函数 执行环境 指向了obj
+fnthis.call(obj);
+// 执行的时候 我们将这个函数 执行环境 指向了obj 此时定义环境就是obj了
 // 不能给箭头函数使用 call apply bind 去改变其内部的this指向
 
 

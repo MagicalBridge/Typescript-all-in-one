@@ -30,7 +30,7 @@ console.log(html);
 //  1 repeat         对字符串进行重复的操作
 let str1 = 'a';
 let str2 = str1.repeat(3);
-console.log(str2);
+console.log(str2); // aaa
 
 //  2 includes()      查找字符串是否包含某一个字符串
 let str = 'louis';

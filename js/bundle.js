@@ -70,9 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-/**
- * 修饰器是一个函数 用来修改类的行为
- */
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'D:\\MyGit\\ES6share\\ES6share\\src\\main.js'\n    at Error (native)");
 
 /***/ })
 /******/ ]);
