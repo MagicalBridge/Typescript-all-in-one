@@ -1,15 +1,18 @@
-## 如何使用这个源码
-1.使用npm install 或者  cnpm install  安装项目依赖
-2.在文件的根目录  执行命令 webpack 成功启动
-3.成功启动之后 再打开一个命令窗口 输入命令 webpack-dev-server
+# 章节目录
 
-## 文件的项目目录
- 所有的代码均放在src目录下面的 main.js 文件下面;
- 文件分装到了不同的js里面 看效果演示 需要更改相应的文件名为 mian.js 
- 支持热更新的功能;
+## [初识 Typescript](chapter1/README.md)
 
-## 查看代码的效果
-默认的端口是 8080
-打开浏览器  地址栏输入localhost:8080  点击enter 查看效果;
+## [TypeScript 基础类型](./chapter2/type.md)
 
+## [TypeScript 变量声明](./chapter2/declare.md)
+
+## [TypeScript 接口](./chapter2/interface.md)
+
+## [TypeScript 类](./chapter2/class.md)
+
+## [TypeScript 函数](./chapter2/function.md)
+
+## [TypeScript 泛型](./chapter2/generic.md)
+
+## [TypeScript 类型推断](./chapter2/inference.md)
 
